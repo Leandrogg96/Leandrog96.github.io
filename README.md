@@ -13,7 +13,7 @@ Soy programador freelance y perfeccionándome en Ciencia de Datos. Apasionado po
 - Datos de contacto
 - Experiencia y tecnologías que estoy aprendiendo
 
-👉 Podés visitar el sitio en: [https://leandrog96.github.io](https://leandrogg96.github.io)
+👉 Podés visitar el sitio en: [https://leandrogg96.github.io](https://leandrogg96.github.io)
 
 ## 🛠 Tecnologías usadas
 - HTML5
