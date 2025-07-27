@@ -3,25 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio de Leandro Gallac</title>
+  <title>Portfolio de Leandro</title>
 
   <!-- Fuente Roboto desde Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 
-  <!-- Iconos de Font Awesome -->
-  <script src="https://kit.fontawesome.com/a2e8d033a9.js" crossorigin="anonymous"></script>
+  <!-- Íconos Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
   <style>
     body {
       margin: 0;
       font-family: 'Roboto', sans-serif;
-      background: #0f2f2d;
-      color: #ecf0f1;
+      background: #1e2d2f;
+      color: #dfe6e9;
     }
 
     header {
-      background: #143532;
-      color: white;
+      background: #233735;
+      color: #fff;
       padding: 40px 20px;
       text-align: center;
     }
@@ -31,21 +31,21 @@
       height: 120px;
       border-radius: 50%;
       object-fit: cover;
-      border: 3px solid #fff;
       margin-bottom: 15px;
+      border: 3px solid #fff;
     }
 
     section {
       max-width: 900px;
       margin: 20px auto;
       padding: 20px;
-      background: #1c403d;
+      background: #2c3e33;
       border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     h2 {
-      color: #a0e0ba;
+      color: #a8d5ba;
       margin-bottom: 10px;
     }
 
@@ -55,22 +55,22 @@
     }
 
     ul li {
-      background: #254742;
+      background: #344944;
       margin: 8px 0;
       padding: 10px;
-      border-left: 5px solid #78c2a5;
+      border-left: 5px solid #7bdca2;
     }
 
     footer {
       text-align: center;
       padding: 20px;
-      background: #143532;
-      color: white;
+      background: #233735;
+      color: #ccc;
       margin-top: 40px;
     }
 
     a {
-      color: #7bed9f;
+      color: #49c98a;
       text-decoration: none;
     }
 
@@ -78,7 +78,12 @@
       text-decoration: underline;
     }
 
-    .contact-icons i {
+    .contacto a {
+      display: block;
+      margin: 8px 0;
+    }
+
+    .contacto i {
       margin-right: 8px;
     }
   </style>
@@ -87,15 +92,18 @@
 
   <header>
     <img src="perfil.jpg" alt="Foto de Leandro" />
-    <h1>¡Hola, soy Leandro Gallac 👨‍💻!</h1>
+    <h1>¡Hola, soy Leandro Gallac <i class="fas fa-laptop-code"></i>!</h1>
     <p>Desarrollador en formación | Apasionado por la tecnología</p>
   </header>
 
   <section>
     <h2>Sobre mí</h2>
-    <p>Programador con sólida base lógica y experiencia en proyectos freelance para empresas del exterior. Cuento con formación en matemática e ingeniería, y me he desempeñado como docente de Álgebra Lineal y ajedrez, combinando pensamiento abstracto con claridad pedagógica. Me especializo en resolver problemas complejos mediante un enfoque analítico y de mejora constante, cualidades que también entreno a través de los deportes de endurance.</p>
-    <hr>
-    <p><em>Programmer with a strong logical foundation and experience in freelance projects for international companies. I have a background in mathematics and engineering, and I’ve taught Linear Algebra and chess, combining abstract thinking with pedagogical clarity. I specialize in solving complex problems through an analytical approach and continuous improvement — qualities I also train through endurance sports.</em></p>
+    <p>
+      Programador con sólida base lógica y experiencia en proyectos freelance para empresas del exterior. Cuento con formación en matemática e ingeniería, y me he desempeñado como docente de Álgebra Lineal y ajedrez, combinando pensamiento abstracto con claridad pedagógica. Me especializo en resolver problemas complejos mediante un enfoque analítico y de mejora constante, cualidades que también entreno a través de los deportes de endurance.
+    </p>
+    <p style="font-style: italic; color: #ccc">
+      Programmer with a strong logical foundation and experience in freelance projects for international companies. I have a background in mathematics and engineering, and I’ve taught Linear Algebra and chess, combining abstract thinking with pedagogical clarity. I specialize in solving complex problems through an analytical approach and continuous improvement — qualities I also train through endurance sports.
+    </p>
   </section>
 
   <section>
@@ -107,11 +115,11 @@
     </ul>
   </section>
 
-  <section>
+  <section class="contacto">
     <h2>Contacto</h2>
-    <p class="contact-icons"><i class="fa-solid fa-envelope"></i> <a href="mailto:gallacleandro@gmail.com">gallacleandro@gmail.com</a></p>
-    <p class="contact-icons"><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/leandro-gallac-457a8b64/" target="_blank">LinkedIn</a></p>
-    <p class="contact-icons"><i class="fa-brands fa-github"></i> <a href="https://github.com/leandrogg96" target="_blank">GitHub</a></p>
+    <a href="mailto:gallacleandro@gmail.com"><i class="fas fa-envelope"></i> gallacleandro@gmail.com</a>
+    <a href="https://www.linkedin.com/in/leandro-gallac-457a8b64/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a href="https://github.com/leandrogg96" target="_blank"><i class="fab fa-github"></i> GitHub</a>
   </section>
 
   <footer>
